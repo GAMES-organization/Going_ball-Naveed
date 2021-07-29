@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     public GameObject FailDia, Ball,compDia;
     public GameObject[]  Bpostion;
     public Text levelNum;
-    Rigidbody rb;
+    public Rigidbody rb;
     //public Transform Player;
     int count;
     // Start is called before the first frame update
@@ -18,9 +18,10 @@ public class Player : MonoBehaviour
     }
     void Start()
     {
+        rb = GetComponent<Rigidbody>();
+        AdsScript.instance.ShowSmartBanner();
         levelNum.text = PlayerPrefs.GetInt("CurrentLevelP").ToString();
         count = 0;
-        rb = GetComponent<Rigidbody>();
         PlayerPrefs.SetInt("Currentlevel",-1);
     }
 

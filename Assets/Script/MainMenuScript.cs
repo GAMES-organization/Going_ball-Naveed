@@ -79,4 +79,8 @@ public class MainMenuScript : MonoBehaviour
     {
         Application.OpenURL(x);
     }
+    public void Exit()
+    {
+        Application.Quit();
+    }
 }

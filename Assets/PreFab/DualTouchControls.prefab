@@ -630,7 +630,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 113.6, y: -153}
+  m_AnchoredPosition: {x: 113.6, y: -266}
   m_SizeDelta: {x: 100.21484, y: 114.97516}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &285359208
@@ -759,7 +759,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -142.9, y: -145.11}
+  m_AnchoredPosition: {x: -142.9, y: -258.11}
   m_SizeDelta: {x: 99.178345, y: 113.78601}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &613367528
@@ -962,8 +962,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -213, y: -246}
-  m_SizeDelta: {x: 511.25916, y: 95.861084}
+  m_AnchoredPosition: {x: -480.4, y: -348}
+  m_SizeDelta: {x: 36.371582, y: 28.767822}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &1092033886468284480
 CanvasRenderer:
@@ -997,15 +997,15 @@ MonoBehaviour:
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 1
+    m_MaxSize: 14
     m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LEVEL
+  m_Text: .
 --- !u!1 &2975328369183531913
 GameObject:
   m_ObjectHideFlags: 0
@@ -1285,11 +1285,11 @@ RectTransform:
   m_Father: {fileID: 666050923071821491}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -190, y: 0}
-  m_SizeDelta: {x: 151.9353, y: 95.861084}
-  m_Pivot: {x: 1, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -179, y: -5}
+  m_SizeDelta: {x: 48.17607, y: 55.84619}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1809748138357043918
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1322,8 +1322,8 @@ MonoBehaviour:
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 1
+    m_MaxSize: 14
     m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
